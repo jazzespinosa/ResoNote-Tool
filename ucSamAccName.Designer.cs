@@ -54,15 +54,15 @@
             this.lblApplication.Text = "User Samaccountname: ";
             this.lblApplication.UseCompatibleTextRendering = true;
             // 
-            // testcontrol
+            // ucSamAccName
             // 
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(140)))), ((int)(((byte)(173)))));
             this.Controls.Add(this.tboxSamaccname);
             this.Controls.Add(this.lblApplication);
             this.Margin = new System.Windows.Forms.Padding(0);
             this.MinimumSize = new System.Drawing.Size(290, 36);
-            this.Name = "testcontrol";
+            this.Name = "ucSamAccName";
             this.Size = new System.Drawing.Size(290, 36);
             this.ResumeLayout(false);
             this.PerformLayout();

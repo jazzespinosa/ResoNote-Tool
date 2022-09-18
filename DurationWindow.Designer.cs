@@ -37,8 +37,8 @@
             this.dtPickerDuration = new System.Windows.Forms.DateTimePicker();
             this.panel1 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -48,7 +48,7 @@
             // 
             this.btnSave.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnSave.Location = new System.Drawing.Point(31, 9);
-            this.btnSave.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(0);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(96, 29);
             this.btnSave.TabIndex = 2;
@@ -61,7 +61,7 @@
             this.btnCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnCancel.Location = new System.Drawing.Point(158, 9);
-            this.btnCancel.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(0);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(96, 29);
             this.btnCancel.TabIndex = 3;
@@ -75,6 +75,7 @@
             this.checkBoxPermanent.Font = new System.Drawing.Font("Roboto", 10.5F, System.Drawing.FontStyle.Bold);
             this.checkBoxPermanent.ForeColor = System.Drawing.Color.White;
             this.checkBoxPermanent.Location = new System.Drawing.Point(151, 42);
+            this.checkBoxPermanent.Margin = new System.Windows.Forms.Padding(0);
             this.checkBoxPermanent.Name = "checkBoxPermanent";
             this.checkBoxPermanent.Size = new System.Drawing.Size(98, 22);
             this.checkBoxPermanent.TabIndex = 12;
@@ -104,6 +105,7 @@
             this.checkBoxTemp.Font = new System.Drawing.Font("Roboto", 10.5F, System.Drawing.FontStyle.Bold);
             this.checkBoxTemp.ForeColor = System.Drawing.Color.White;
             this.checkBoxTemp.Location = new System.Drawing.Point(32, 42);
+            this.checkBoxTemp.Margin = new System.Windows.Forms.Padding(0);
             this.checkBoxTemp.Name = "checkBoxTemp";
             this.checkBoxTemp.Size = new System.Drawing.Size(111, 22);
             this.checkBoxTemp.TabIndex = 14;
@@ -116,7 +118,7 @@
             this.dtPickerDuration.CustomFormat = "MM/dd/yyyy";
             this.dtPickerDuration.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtPickerDuration.Location = new System.Drawing.Point(135, 9);
-            this.dtPickerDuration.Margin = new System.Windows.Forms.Padding(4);
+            this.dtPickerDuration.Margin = new System.Windows.Forms.Padding(0);
             this.dtPickerDuration.Name = "dtPickerDuration";
             this.dtPickerDuration.Size = new System.Drawing.Size(129, 26);
             this.dtPickerDuration.TabIndex = 15;
@@ -125,6 +127,7 @@
             // 
             // panel1
             // 
+            this.panel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel1.Controls.Add(this.checkBoxPermanent);
             this.panel1.Controls.Add(this.dtPickerDuration);
             this.panel1.Controls.Add(this.checkBoxTemp);
@@ -151,8 +154,19 @@
             this.flowLayoutPanel1.Size = new System.Drawing.Size(284, 120);
             this.flowLayoutPanel1.TabIndex = 18;
             // 
+            // panel2
+            // 
+            this.panel2.AutoSize = true;
+            this.panel2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.panel2.Location = new System.Drawing.Point(0, 70);
+            this.panel2.Margin = new System.Windows.Forms.Padding(0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(0, 0);
+            this.panel2.TabIndex = 20;
+            // 
             // panel3
             // 
+            this.panel3.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel3.Controls.Add(this.btnSave);
             this.panel3.Controls.Add(this.btnCancel);
             this.panel3.Location = new System.Drawing.Point(0, 70);
@@ -161,15 +175,6 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(290, 45);
             this.panel3.TabIndex = 19;
-            // 
-            // panel2
-            // 
-            this.panel2.AutoSize = true;
-            this.panel2.Location = new System.Drawing.Point(0, 70);
-            this.panel2.Margin = new System.Windows.Forms.Padding(0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(0, 0);
-            this.panel2.TabIndex = 20;
             // 
             // DurationWindow
             // 
